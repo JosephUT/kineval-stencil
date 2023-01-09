@@ -166,19 +166,6 @@ function init() {
 
 function initSearch() {
 
-    // specify default search algorithm to use for planning
-    //search_alg = "depth-first";
-    //search_alg = "breadth-first";
-    //search_alg = "greedy-best-first";
-    search_alg = "A-star";
-    //search_alg = "RRT";
-    //search_alg = "RRT-connect";
-    //search_alg = "RRT-star";
-
-    // specify default eps (epsilon) spatial resolution variable
-    //   for RRT, specifies threshold radius for step size and reaching goal
-    eps = 0.1;
-
     // create event handlers for the mouse
     canvas = document.getElementById("myCanvas");
     mouse_x = 0;
